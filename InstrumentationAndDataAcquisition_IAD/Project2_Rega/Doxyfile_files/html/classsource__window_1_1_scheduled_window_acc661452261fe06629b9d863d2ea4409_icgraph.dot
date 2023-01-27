@@ -1,0 +1,16 @@
+digraph "source_window.ScheduledWindow.label_update_weekly"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="source_window.ScheduledWindow.label\l_update_weekly",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Updated the Weekly mode time selection label."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="source_window.ScheduledWindow.send\l_clicked_weekly",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsource__window_1_1_scheduled_window.html#a678b40817ac982fb0c69d88c0effc471",tooltip="Handler for the Weekly mode - Send button."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="source_window.ScheduledWindow.time\l_clear_weekly",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsource__window_1_1_scheduled_window.html#a12cf16eef923a3f757d93dc18b7f9b19",tooltip="Handler for the Weekly mode - Clear button."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="source_window.ScheduledWindow.time\l_set_weekly",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsource__window_1_1_scheduled_window.html#af90b181ae60c1bfc3ebaf8077ae0d8dd",tooltip="Handler for the Weekly mode - Set button."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="source_window.ScheduledWindow.time\l_undo_weekly",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsource__window_1_1_scheduled_window.html#afd012170e8547ecc3b615a713887c56e",tooltip="Handler for the Weekly mode - Undo button."];
+}

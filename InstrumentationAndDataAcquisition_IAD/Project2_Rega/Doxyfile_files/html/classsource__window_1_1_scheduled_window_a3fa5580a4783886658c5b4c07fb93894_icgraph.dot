@@ -1,0 +1,16 @@
+digraph "source_window.ScheduledWindow.label_update_daily"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="source_window.ScheduledWindow.label\l_update_daily",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Updated the Daily mode time selection label."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="source_window.ScheduledWindow.send\l_clicked_daily",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsource__window_1_1_scheduled_window.html#a331e5a5cb0847cceeed193099e5262ed",tooltip="Handler for the Daily mode - Send button."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="source_window.ScheduledWindow.time\l_clear_daily",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsource__window_1_1_scheduled_window.html#aa69139eeb400002245668f6ff2693864",tooltip="Handler for the Daily mode - Clear button."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="source_window.ScheduledWindow.time\l_set_daily",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsource__window_1_1_scheduled_window.html#ace15d6534dcdc9a90a371101f6a8c92e",tooltip="Handler for the Daily mode - Set button."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="source_window.ScheduledWindow.time\l_undo_daily",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsource__window_1_1_scheduled_window.html#ac27368941c258e4d7c39484c07adc3af",tooltip="Handler for the Daily mode - Undo button."];
+}

@@ -1,0 +1,7 @@
+Solicito avaliação da minha prova de recurso (96523)
+
+Problema 1b:
+O número de isótopos de Po é máximo no instante de tempo final, t = 3800  dias, aproximadamente, pois já não há átomos de Bi a decaírem. Em consequência, a partir deste instante, os isótpos de Po diminuirão em número, até se transformarem na sua totalidade em Pb.
+
+Problema 2b:
+Demora aproximadamente 503 unidades de tempo. Determinam-se posições até haver 1 partícula que já tenha chegado a x=50 e outra a x=150 (nesta alínea, como o raio é 50, consideramos x de 50 a 150, estando as partículas inicialmente em 100). Vê-se isso no gráfico realizado para esta alínea.

@@ -1,0 +1,26 @@
+\section{Introduction}
+\label{sec:introduction}
+
+% state the learning objective
+The objective of this laboratory assignment is to analyse the RC circuit shown in Figure \ref{fig:CircuitDraw}. As shown below, the nodes have been numbered, current directions have been assigned to all branches and potential $0V$ has been assigned to one of the nodes. By running the Python script \texttt{t2\_datagen.py}, the values shown in Table \ref{tab:GivenValues} have been obtained.
+\par
+In Section~\ref{sec:analysis}, a theoretical analysis of the circuit and the results obtained with the Octave math tool are presented. In Section~\ref{sec:simulation}, the results obtained using the Ngspice simulation tool are shown. The conclusions of this study are outlined in Section~\ref{sec:conclusion}, in which the theoretical results obtained in Section~\ref{sec:analysis} are compared to those presented in Section~\ref{sec:simulation}.
+
+\begin{figure}[H] \centering
+  \includegraphics[width=0.8\linewidth]{CircuitDraw.pdf}
+  \caption{Circuit to be analysed in this laboratory assignment.}
+  \label{fig:CircuitDraw}
+\end{figure}
+
+
+\begin{table}[H]
+  \centering
+  \begin{tabular}{|c|c|}
+    \hline    
+    {\bf Designation} & {\bf Value [V, k$\Omega$, mS or $\mu$F]} \\ \hline
+    \input{../sim/PythonInfo.tex}
+  \end{tabular}
+  \caption{Values obtained by running the file \texttt{t2\_datagen.py}. Resistances $R_i$ and constant $K_d$ are in k$\Omega$, voltage $V_s$ is in volts, capacitance $C$ is in microfarads and constant $K_b$ is in milisiemens.}
+  \label{tab:GivenValues}
+\end{table}
+

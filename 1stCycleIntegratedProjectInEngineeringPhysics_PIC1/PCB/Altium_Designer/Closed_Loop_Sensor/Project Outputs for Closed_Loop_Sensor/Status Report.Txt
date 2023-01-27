@@ -1,0 +1,28 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [Closed_Loop_Sensor.PrjPcb]
+   Generated File[Sensor.GTO]
+   Generated File[Sensor.GTP]
+   Generated File[Sensor.GTS]
+   Generated File[Sensor.GTL]
+   Generated File[Sensor.GBL]
+   Generated File[Sensor.GBS]
+   Generated File[Sensor.GM1]
+   Generated File[Sensor.GM5]
+   Generated File[Sensor.GM13]
+   Generated File[Sensor.GM15]
+   Generated File[Sensor.GM16]
+   Generated File[Sensor.GKO]
+   Generated File[Sensor.GPT]
+   Generated File[Sensor.GPB]
+   Generated File[Sensor.GD1]
+   Generated File[Sensor.GG1]
+   Generated File[Sensor.RUL]
+   Generated File[Sensor.EXTREP]
+   Generated File[Sensor.REP]
+
+
+Files Generated   : 19
+Documents Printed : 0
+
+Finished Output Generation At 14:32:15 On 09/06/2022

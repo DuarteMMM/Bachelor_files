@@ -1,0 +1,106 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\Public\Documents\Altium\Projects\PIC\Sensor.PcbDoc
+Date     : 29/05/2022
+Time     : 17:00:25
+
+Processing Rule : Clearance Constraint (Gap=0.15mm) ((InComponent('U2') OR InComponent('U21') OR InComponent('U22'))),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.15mm) (InNet('VCC')),(InNetClass('IC_connections'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.38mm) (Max=0.64mm) (Preferred=0.51mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.254mm) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.001mm) (HasFootprint('FP-CL21-IPC_C')),(HasFootprint('FP-CL21-IPC_C'))
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+Waived Violations Of Rule : Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)
+   Waived Violation between Minimum Solder Mask Sliver Constraint: (0.194mm < 0.254mm) Between Pad U2-  (29.4mm,63.525mm) on Top Layer And Pad U2-2(29.4mm,64.175mm) on Top Layer [Top Solder] Mask Sliver [0.194mm]Waived by João Chaves at 29/05/2022 17:00:13Verified Footprint
+   Waived Violation between Minimum Solder Mask Sliver Constraint: (0.194mm < 0.254mm) Between Pad U21-1(79.15mm,64.5mm) on Top Layer And Pad U21-2(79.15mm,65.15mm) on Top Layer [Top Solder] Mask Sliver [0.194mm]Waived by João Chaves at 29/05/2022 17:00:13Verified Footprint
+   Waived Violation between Minimum Solder Mask Sliver Constraint: (0.194mm < 0.254mm) Between Pad U21-2(79.15mm,65.15mm) on Top Layer And Pad U21-3(79.15mm,65.8mm) on Top Layer [Top Solder] Mask Sliver [0.194mm]Waived by João Chaves at 29/05/2022 17:00:13Verified Footprint
+   Waived Violation between Minimum Solder Mask Sliver Constraint: (0.194mm < 0.254mm) Between Pad U21-3(79.15mm,65.8mm) on Top Layer And Pad U21-4(79.15mm,66.45mm) on Top Layer [Top Solder] Mask Sliver [0.194mm]Waived by João Chaves at 29/05/2022 17:00:13Verified Footprint
+   Waived Violation between Minimum Solder Mask Sliver Constraint: (0.194mm < 0.254mm) Between Pad U21-5(74.85mm,66.45mm) on Top Layer And Pad U21-6(74.85mm,65.8mm) on Top Layer [Top Solder] Mask Sliver [0.194mm]Waived by João Chaves at 29/05/2022 17:00:13Verified Footprint
+   Waived Violation between Minimum Solder Mask Sliver Constraint: (0.194mm < 0.254mm) Between Pad U21-6(74.85mm,65.8mm) on Top Layer And Pad U21-7(74.85mm,65.15mm) on Top Layer [Top Solder] Mask Sliver [0.194mm]Waived by João Chaves at 29/05/2022 17:00:13Verified Footprint
+   Waived Violation between Minimum Solder Mask Sliver Constraint: (0.194mm < 0.254mm) Between Pad U21-7(74.85mm,65.15mm) on Top Layer And Pad U21-8(74.85mm,64.5mm) on Top Layer [Top Solder] Mask Sliver [0.194mm]Waived by João Chaves at 29/05/2022 17:00:13Verified Footprint
+   Waived Violation between Minimum Solder Mask Sliver Constraint: (0.194mm < 0.254mm) Between Pad U2-2(29.4mm,64.175mm) on Top Layer And Pad U2-3(29.4mm,64.825mm) on Top Layer [Top Solder] Mask Sliver [0.194mm]Waived by João Chaves at 29/05/2022 17:00:13Verified Footprint
+   Waived Violation between Minimum Solder Mask Sliver Constraint: (0.194mm < 0.254mm) Between Pad U22-1(125.65mm,63.775mm) on Top Layer And Pad U22-2(125.65mm,64.425mm) on Top Layer [Top Solder] Mask Sliver [0.194mm]Waived by João Chaves at 29/05/2022 17:00:13Verified Footprint
+   Waived Violation between Minimum Solder Mask Sliver Constraint: (0.194mm < 0.254mm) Between Pad U22-2(125.65mm,64.425mm) on Top Layer And Pad U22-3(125.65mm,65.075mm) on Top Layer [Top Solder] Mask Sliver [0.194mm]Waived by João Chaves at 29/05/2022 17:00:13Verified Footprint
+   Waived Violation between Minimum Solder Mask Sliver Constraint: (0.194mm < 0.254mm) Between Pad U22-3(125.65mm,65.075mm) on Top Layer And Pad U22-4(125.65mm,65.725mm) on Top Layer [Top Solder] Mask Sliver [0.194mm]Waived by João Chaves at 29/05/2022 17:00:13Verified Footprint
+   Waived Violation between Minimum Solder Mask Sliver Constraint: (0.194mm < 0.254mm) Between Pad U22-5(121.35mm,65.725mm) on Top Layer And Pad U22-6(121.35mm,65.075mm) on Top Layer [Top Solder] Mask Sliver [0.194mm]Waived by João Chaves at 29/05/2022 17:00:13Verified Footprint
+   Waived Violation between Minimum Solder Mask Sliver Constraint: (0.194mm < 0.254mm) Between Pad U22-6(121.35mm,65.075mm) on Top Layer And Pad U22-7(121.35mm,64.425mm) on Top Layer [Top Solder] Mask Sliver [0.194mm]Waived by João Chaves at 29/05/2022 17:00:13Verified Footprint
+   Waived Violation between Minimum Solder Mask Sliver Constraint: (0.194mm < 0.254mm) Between Pad U22-7(121.35mm,64.425mm) on Top Layer And Pad U22-8(121.35mm,63.775mm) on Top Layer [Top Solder] Mask Sliver [0.194mm]Waived by João Chaves at 29/05/2022 17:00:13Verified Footprint
+   Waived Violation between Minimum Solder Mask Sliver Constraint: (0.194mm < 0.254mm) Between Pad U2-3(29.4mm,64.825mm) on Top Layer And Pad U2-4(29.4mm,65.475mm) on Top Layer [Top Solder] Mask Sliver [0.194mm]Waived by João Chaves at 29/05/2022 17:00:13Verified Footprint
+   Waived Violation between Minimum Solder Mask Sliver Constraint: (0.194mm < 0.254mm) Between Pad U2-5(25.1mm,65.475mm) on Top Layer And Pad U2-6(25.1mm,64.825mm) on Top Layer [Top Solder] Mask Sliver [0.194mm]Waived by João Chaves at 29/05/2022 17:00:13Verified Footprint
+   Waived Violation between Minimum Solder Mask Sliver Constraint: (0.194mm < 0.254mm) Between Pad U2-6(25.1mm,64.825mm) on Top Layer And Pad U2-7(25.1mm,64.175mm) on Top Layer [Top Solder] Mask Sliver [0.194mm]Waived by João Chaves at 29/05/2022 17:00:13Verified Footprint
+   Waived Violation between Minimum Solder Mask Sliver Constraint: (0.194mm < 0.254mm) Between Pad U2-7(25.1mm,64.175mm) on Top Layer And Pad U2-8(25.1mm,63.525mm) on Top Layer [Top Solder] Mask Sliver [0.194mm]Waived by João Chaves at 29/05/2022 17:00:13Verified Footprint
+Waived Violations :18
+
+Waived Violations Of Rule : Silk To Solder Mask (Clearance=0.254mm) (IsPad),(All)
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.2mm < 0.254mm) Between Pad R2-1(36.5mm,60.1mm) on Top Layer And Track (35.875mm,59.075mm)(35.875mm,59.275mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.2mm]Waived by João Chaves at 29/05/2022 16:59:32Verified Footprint
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.2mm < 0.254mm) Between Pad R2-1(36.5mm,60.1mm) on Top Layer And Track (37.125mm,59.075mm)(37.125mm,59.275mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.2mm]Waived by João Chaves at 29/05/2022 16:59:32Verified Footprint
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.2mm < 0.254mm) Between Pad R21-1(85.5mm,61mm) on Top Layer And Track (84.875mm,59.975mm)(84.875mm,60.175mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.2mm]Waived by João Chaves at 29/05/2022 16:59:32Verified Footprint
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.2mm < 0.254mm) Between Pad R21-1(85.5mm,61mm) on Top Layer And Track (86.125mm,59.975mm)(86.125mm,60.175mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.2mm]Waived by João Chaves at 29/05/2022 16:59:32Verified Footprint
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.2mm < 0.254mm) Between Pad R21-2(85.5mm,59.15mm) on Top Layer And Track (84.875mm,59.975mm)(84.875mm,60.175mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.2mm]Waived by João Chaves at 29/05/2022 16:59:32Verified Footprint
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.2mm < 0.254mm) Between Pad R21-2(85.5mm,59.15mm) on Top Layer And Track (86.125mm,59.975mm)(86.125mm,60.175mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.2mm]Waived by João Chaves at 29/05/2022 16:59:32Verified Footprint
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.2mm < 0.254mm) Between Pad R2-2(36.5mm,58.25mm) on Top Layer And Track (35.875mm,59.075mm)(35.875mm,59.275mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.2mm]Waived by João Chaves at 29/05/2022 16:59:32Verified Footprint
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.2mm < 0.254mm) Between Pad R2-2(36.5mm,58.25mm) on Top Layer And Track (37.125mm,59.075mm)(37.125mm,59.275mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.2mm]Waived by João Chaves at 29/05/2022 16:59:32Verified Footprint
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.2mm < 0.254mm) Between Pad R22-1(133mm,60.85mm) on Top Layer And Track (132.375mm,59.825mm)(132.375mm,60.025mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.2mm]Waived by João Chaves at 29/05/2022 16:59:32Verified Footprint
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.2mm < 0.254mm) Between Pad R22-1(133mm,60.85mm) on Top Layer And Track (133.625mm,59.825mm)(133.625mm,60.025mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.2mm]Waived by João Chaves at 29/05/2022 16:59:32Verified Footprint
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.2mm < 0.254mm) Between Pad R22-2(133mm,59mm) on Top Layer And Track (132.375mm,59.825mm)(132.375mm,60.025mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.2mm]Waived by João Chaves at 29/05/2022 16:59:32Verified Footprint
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.2mm < 0.254mm) Between Pad R22-2(133mm,59mm) on Top Layer And Track (133.625mm,59.825mm)(133.625mm,60.025mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.2mm]Waived by João Chaves at 29/05/2022 16:59:32Verified Footprint
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.2mm < 0.254mm) Between Pad R4-1(25.1mm,60mm) on Top Layer And Track (24.075mm,59.375mm)(24.275mm,59.375mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.2mm]Waived by João Chaves at 29/05/2022 16:59:32Verified Footprint
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.2mm < 0.254mm) Between Pad R4-1(25.1mm,60mm) on Top Layer And Track (24.075mm,60.625mm)(24.275mm,60.625mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.2mm]Waived by João Chaves at 29/05/2022 16:59:32Verified Footprint
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.2mm < 0.254mm) Between Pad R41-1(74.85mm,60.1mm) on Top Layer And Track (73.825mm,59.475mm)(74.025mm,59.475mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.2mm]Waived by João Chaves at 29/05/2022 16:59:32Verified Footprint
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.2mm < 0.254mm) Between Pad R41-1(74.85mm,60.1mm) on Top Layer And Track (73.825mm,60.725mm)(74.025mm,60.725mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.2mm]Waived by João Chaves at 29/05/2022 16:59:32Verified Footprint
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.2mm < 0.254mm) Between Pad R41-2(73mm,60.1mm) on Top Layer And Track (73.825mm,59.475mm)(74.025mm,59.475mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.2mm]Waived by João Chaves at 29/05/2022 16:59:32Verified Footprint
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.2mm < 0.254mm) Between Pad R41-2(73mm,60.1mm) on Top Layer And Track (73.825mm,60.725mm)(74.025mm,60.725mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.2mm]Waived by João Chaves at 29/05/2022 16:59:32Verified Footprint
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.2mm < 0.254mm) Between Pad R4-2(23.25mm,60mm) on Top Layer And Track (24.075mm,59.375mm)(24.275mm,59.375mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.2mm]Waived by João Chaves at 29/05/2022 16:59:32Verified Footprint
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.2mm < 0.254mm) Between Pad R4-2(23.25mm,60mm) on Top Layer And Track (24.075mm,60.625mm)(24.275mm,60.625mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.2mm]Waived by João Chaves at 29/05/2022 16:59:32Verified Footprint
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.2mm < 0.254mm) Between Pad R42-1(121.35mm,59.75mm) on Top Layer And Track (120.325mm,59.125mm)(120.525mm,59.125mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.2mm]Waived by João Chaves at 29/05/2022 16:59:32Verified Footprint
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.2mm < 0.254mm) Between Pad R42-1(121.35mm,59.75mm) on Top Layer And Track (120.325mm,60.375mm)(120.525mm,60.375mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.2mm]Waived by João Chaves at 29/05/2022 16:59:32Verified Footprint
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.2mm < 0.254mm) Between Pad R42-2(119.5mm,59.75mm) on Top Layer And Track (120.325mm,59.125mm)(120.525mm,59.125mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.2mm]Waived by João Chaves at 29/05/2022 16:59:32Verified Footprint
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.2mm < 0.254mm) Between Pad R42-2(119.5mm,59.75mm) on Top Layer And Track (120.325mm,60.375mm)(120.525mm,60.375mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.2mm]Waived by João Chaves at 29/05/2022 16:59:32Verified Footprint
+Waived Violations :24
+
+
+Violations Detected : 0
+Waived Violations : 42
+PCB Health Issues : 0
+Time Elapsed        : 00:00:01

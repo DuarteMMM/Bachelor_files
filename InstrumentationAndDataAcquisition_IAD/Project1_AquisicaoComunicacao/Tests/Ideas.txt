@@ -1,0 +1,9 @@
+Este tutorial parece muito bom para ligar a comunicação:
+https://roboticsbackend.com/raspberry-pi-arduino-serial-communication/
+- teste1
+- teste2
+
+Este tutorial parece muito bom para começar a tratar das janelas:
+https://www.pythonguis.com/tutorials/creating-your-first-pyqt-window/
+- button
+- widgets

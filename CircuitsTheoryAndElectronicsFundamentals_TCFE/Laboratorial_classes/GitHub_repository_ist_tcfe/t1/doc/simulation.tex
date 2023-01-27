@@ -1,0 +1,19 @@
+\section{Simulation Analysis}
+\label{sec:simulation}
+
+\subsection{Operating Point Analysis}
+
+Table~\ref{tab:op} shows the simulated operating point results for the circuit presented in Figure \ref{fig:CircuitDraw}. Again, currents designated below as $I_i$ refer to the currents passing through the respective resistances, $R_i$.
+
+\begin{table}[H]
+  \centering
+  \begin{tabular}{|c|c|}
+    \hline    
+    {\bf Designation} & {\bf Value [A or V]} \\ \hline
+    \input{../sim/op_tab.tex}
+  \end{tabular}
+  \caption{Operating point analysis table. Currents $I_i$ are in amperes; voltages $V_i$ are in volts.}
+  \label{tab:op}
+\end{table}
+
+Comparing the theoretical analysis results presented in Table \ref{tab:Theoretical} and the results in Table \ref{tab:op}, we can notice no observable differences. This was to be expected, since the circuit has no time dependency - meaning it's equal at any point in time - and all the components are linear.

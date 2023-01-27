@@ -1,0 +1,4 @@
+*Files not in GitHub (too large)*
+
+Coeficientes_sem_ruido_g_0_u_0.062.fig
+Coeficientes_sem_ruido_g_0_u_0.063.fig

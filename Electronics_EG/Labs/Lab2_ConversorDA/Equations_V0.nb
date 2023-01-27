@@ -1,0 +1,777 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     22646,        769]
+NotebookOptionsPosition[     21646,        748]
+NotebookOutlinePosition[     22025,        764]
+CellTagsIndexPosition[     21982,        761]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ StyleBox[
+  RowBox[{"(*", 
+   RowBox[{
+   "Tens\[OTilde]es", " ", "e", " ", "resist\[EHat]ncias", " ", "de", " ", 
+    "Th\[EAcute]venin"}], "*)"}],
+  FontColor->RGBColor[0., 0.5019607843137255, 0.5019607843137255]]], "Input",
+ CellChangeTimes->{{3.844706823960385*^9, 3.8447068433150215`*^9}, {
+  3.8447068960328035`*^9, 
+  3.844706896204694*^9}},ExpressionUUID->"b14c3d54-6903-4262-b676-\
+b47f943e42fd"],
+
+Cell[BoxData[{
+ RowBox[{
+  StyleBox["V1",
+   FontColor->RGBColor[0, 0, 1]], 
+  StyleBox["=",
+   FontColor->GrayLevel[0]], 
+  RowBox[{
+   RowBox[{
+    StyleBox["(",
+     FontColor->GrayLevel[0]], 
+    RowBox[{
+     RowBox[{
+      StyleBox["(",
+       FontColor->GrayLevel[0]], 
+      RowBox[{
+       StyleBox["2",
+        FontColor->RGBColor[0, 0, 1]], 
+       StyleBox["*",
+        FontColor->GrayLevel[0]], 
+       StyleBox["R",
+        FontColor->RGBColor[0, 0, 1]]}], 
+      StyleBox[")",
+       FontColor->GrayLevel[0]]}], 
+     StyleBox["/",
+      FontColor->GrayLevel[0]], 
+     RowBox[{
+      StyleBox["(",
+       FontColor->GrayLevel[0]], 
+      RowBox[{
+       RowBox[{
+        StyleBox["2",
+         FontColor->RGBColor[0, 0, 1]], 
+        StyleBox["*",
+         FontColor->GrayLevel[0]], 
+        StyleBox["R",
+         FontColor->RGBColor[0, 0, 1]]}], 
+       StyleBox["+",
+        FontColor->GrayLevel[0]], 
+       StyleBox["R1",
+        FontColor->RGBColor[0, 0, 1]]}], 
+      StyleBox[")",
+       FontColor->GrayLevel[0]]}]}], 
+    StyleBox[")",
+     FontColor->GrayLevel[0]]}], 
+   StyleBox["*",
+    FontColor->GrayLevel[0]], 
+   StyleBox["s1",
+    FontColor->RGBColor[0, 0, 1]]}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  StyleBox["Req1",
+   FontColor->RGBColor[0, 0, 1]], 
+  StyleBox["=",
+   FontColor->GrayLevel[0]], 
+  RowBox[{
+   RowBox[{
+    StyleBox["(",
+     FontColor->GrayLevel[0]], 
+    RowBox[{
+     StyleBox["2",
+      FontColor->RGBColor[0, 0, 1]], 
+     StyleBox["*",
+      FontColor->GrayLevel[0]], 
+     StyleBox["R",
+      FontColor->RGBColor[0, 0, 1]], 
+     StyleBox["*",
+      FontColor->GrayLevel[0]], 
+     StyleBox["R1",
+      FontColor->RGBColor[0, 0, 1]]}], 
+    StyleBox[")",
+     FontColor->GrayLevel[0]]}], 
+   StyleBox["/",
+    FontColor->GrayLevel[0]], 
+   RowBox[{
+    StyleBox["(",
+     FontColor->GrayLevel[0]], 
+    RowBox[{
+     RowBox[{
+      StyleBox["2",
+       FontColor->RGBColor[0, 0, 1]], 
+      StyleBox["*",
+       FontColor->GrayLevel[0]], 
+      StyleBox["R",
+       FontColor->RGBColor[0, 0, 1]]}], 
+     StyleBox["+",
+      FontColor->GrayLevel[0]], 
+     StyleBox["R1",
+      FontColor->RGBColor[0, 0, 1]]}], 
+    StyleBox[")",
+     FontColor->GrayLevel[0]]}]}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  StyleBox["V2",
+   FontColor->RGBColor[0, 0, 1]], 
+  StyleBox["=",
+   FontColor->GrayLevel[0]], 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     StyleBox["(",
+      FontColor->GrayLevel[0]], 
+     RowBox[{
+      StyleBox["R2",
+       FontColor->RGBColor[0, 0, 1]], 
+      StyleBox["/",
+       FontColor->GrayLevel[0]], 
+      RowBox[{
+       StyleBox["(",
+        FontColor->GrayLevel[0]], 
+       RowBox[{
+        StyleBox["R2",
+         FontColor->RGBColor[0, 0, 1]], 
+        StyleBox["+",
+         FontColor->GrayLevel[0]], 
+        StyleBox["Req1",
+         FontColor->RGBColor[0, 0, 1]], 
+        StyleBox["+",
+         FontColor->GrayLevel[0]], 
+        StyleBox["R",
+         FontColor->RGBColor[0, 0, 1]]}], 
+       StyleBox[")",
+        FontColor->GrayLevel[0]]}]}], 
+     StyleBox[")",
+      FontColor->GrayLevel[0]]}], 
+    StyleBox["*",
+     FontColor->GrayLevel[0]], 
+    StyleBox["V1",
+     FontColor->RGBColor[0, 0, 1]]}], 
+   StyleBox["+",
+    FontColor->GrayLevel[0]], 
+   RowBox[{
+    RowBox[{
+     StyleBox["(",
+      FontColor->GrayLevel[0]], 
+     RowBox[{
+      RowBox[{
+       StyleBox["(",
+        FontColor->GrayLevel[0]], 
+       RowBox[{
+        StyleBox["Req1",
+         FontColor->RGBColor[0, 0, 1]], 
+        StyleBox["+",
+         FontColor->GrayLevel[0]], 
+        StyleBox["R",
+         FontColor->RGBColor[0, 0, 1]]}], 
+       StyleBox[")",
+        FontColor->GrayLevel[0]]}], 
+      StyleBox["/",
+       FontColor->GrayLevel[0]], 
+      RowBox[{
+       StyleBox["(",
+        FontColor->GrayLevel[0]], 
+       RowBox[{
+        StyleBox["Req1",
+         FontColor->RGBColor[0, 0, 1]], 
+        StyleBox["+",
+         FontColor->GrayLevel[0]], 
+        StyleBox["R",
+         FontColor->RGBColor[0, 0, 1]], 
+        StyleBox["+",
+         FontColor->GrayLevel[0]], 
+        StyleBox["R2",
+         FontColor->RGBColor[0, 0, 1]]}], 
+       StyleBox[")",
+        FontColor->GrayLevel[0]]}]}], 
+     StyleBox[")",
+      FontColor->GrayLevel[0]]}], 
+    StyleBox["*",
+     FontColor->GrayLevel[0]], 
+    StyleBox["s2",
+     FontColor->RGBColor[0, 0, 1]]}]}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  StyleBox["Req2",
+   FontColor->RGBColor[0, 0, 1]], 
+  StyleBox["=",
+   FontColor->GrayLevel[0]], 
+  RowBox[{
+   RowBox[{
+    StyleBox["(",
+     FontColor->GrayLevel[0]], 
+    RowBox[{
+     StyleBox["R2",
+      FontColor->RGBColor[0, 0, 1]], 
+     StyleBox["*",
+      FontColor->GrayLevel[0]], 
+     RowBox[{
+      StyleBox["(",
+       FontColor->GrayLevel[0]], 
+      RowBox[{
+       StyleBox["Req1",
+        FontColor->RGBColor[0, 0, 1]], 
+       StyleBox["+",
+        FontColor->GrayLevel[0]], 
+       StyleBox["R",
+        FontColor->RGBColor[0, 0, 1]]}], 
+      StyleBox[")",
+       FontColor->GrayLevel[0]]}]}], 
+    StyleBox[")",
+     FontColor->GrayLevel[0]]}], 
+   StyleBox["/",
+    FontColor->GrayLevel[0]], 
+   RowBox[{
+    StyleBox["(",
+     FontColor->GrayLevel[0]], 
+    RowBox[{
+     StyleBox["R2",
+      FontColor->RGBColor[0, 0, 1]], 
+     StyleBox["+",
+      FontColor->GrayLevel[0]], 
+     StyleBox["Req1",
+      FontColor->RGBColor[0, 0, 1]], 
+     StyleBox["+",
+      FontColor->GrayLevel[0]], 
+     StyleBox["R",
+      FontColor->RGBColor[0, 0, 1]]}], 
+    StyleBox[")",
+     FontColor->GrayLevel[0]]}]}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  StyleBox["V3",
+   FontColor->RGBColor[0, 0, 1]], 
+  StyleBox["=",
+   FontColor->GrayLevel[0]], 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     StyleBox["(",
+      FontColor->GrayLevel[0]], 
+     RowBox[{
+      StyleBox["R3",
+       FontColor->RGBColor[0, 0, 1]], 
+      StyleBox["/",
+       FontColor->GrayLevel[0]], 
+      RowBox[{
+       StyleBox["(",
+        FontColor->GrayLevel[0]], 
+       RowBox[{
+        StyleBox["R3",
+         FontColor->RGBColor[0, 0, 1]], 
+        StyleBox["+",
+         FontColor->GrayLevel[0]], 
+        StyleBox["Req2",
+         FontColor->RGBColor[0, 0, 1]], 
+        StyleBox["+",
+         FontColor->GrayLevel[0]], 
+        StyleBox["R",
+         FontColor->RGBColor[0, 0, 1]]}], 
+       StyleBox[")",
+        FontColor->GrayLevel[0]]}]}], 
+     StyleBox[")",
+      FontColor->GrayLevel[0]]}], 
+    StyleBox["*",
+     FontColor->GrayLevel[0]], 
+    StyleBox["V2",
+     FontColor->RGBColor[0, 0, 1]]}], 
+   StyleBox["+",
+    FontColor->GrayLevel[0]], 
+   RowBox[{
+    RowBox[{
+     StyleBox["(",
+      FontColor->GrayLevel[0]], 
+     RowBox[{
+      RowBox[{
+       StyleBox["(",
+        FontColor->GrayLevel[0]], 
+       RowBox[{
+        StyleBox["Req2",
+         FontColor->RGBColor[0, 0, 1]], 
+        StyleBox["+",
+         FontColor->GrayLevel[0]], 
+        StyleBox["R",
+         FontColor->RGBColor[0, 0, 1]]}], 
+       StyleBox[")",
+        FontColor->GrayLevel[0]]}], 
+      StyleBox["/",
+       FontColor->GrayLevel[0]], 
+      RowBox[{
+       StyleBox["(",
+        FontColor->GrayLevel[0]], 
+       RowBox[{
+        StyleBox["Req2",
+         FontColor->RGBColor[0, 0, 1]], 
+        StyleBox["+",
+         FontColor->GrayLevel[0]], 
+        StyleBox["R",
+         FontColor->RGBColor[0, 0, 1]], 
+        StyleBox["+",
+         FontColor->GrayLevel[0]], 
+        StyleBox["R3",
+         FontColor->RGBColor[0, 0, 1]]}], 
+       StyleBox[")",
+        FontColor->GrayLevel[0]]}]}], 
+     StyleBox[")",
+      FontColor->GrayLevel[0]]}], 
+    StyleBox["*",
+     FontColor->GrayLevel[0]], 
+    StyleBox["s3",
+     FontColor->RGBColor[0, 0, 1]]}]}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  StyleBox["Req3",
+   FontColor->RGBColor[0, 0, 1]], 
+  StyleBox["=",
+   FontColor->GrayLevel[0]], 
+  RowBox[{
+   RowBox[{
+    StyleBox["(",
+     FontColor->GrayLevel[0]], 
+    RowBox[{
+     StyleBox["R3",
+      FontColor->RGBColor[0, 0, 1]], 
+     StyleBox["*",
+      FontColor->GrayLevel[0]], 
+     RowBox[{
+      StyleBox["(",
+       FontColor->GrayLevel[0]], 
+      RowBox[{
+       StyleBox["Req2",
+        FontColor->RGBColor[0, 0, 1]], 
+       StyleBox["+",
+        FontColor->GrayLevel[0]], 
+       StyleBox["R",
+        FontColor->RGBColor[0, 0, 1]]}], 
+      StyleBox[")",
+       FontColor->GrayLevel[0]]}]}], 
+    StyleBox[")",
+     FontColor->GrayLevel[0]]}], 
+   StyleBox["/",
+    FontColor->GrayLevel[0]], 
+   RowBox[{
+    StyleBox["(",
+     FontColor->GrayLevel[0]], 
+    RowBox[{
+     StyleBox["R3",
+      FontColor->RGBColor[0, 0, 1]], 
+     StyleBox["+",
+      FontColor->GrayLevel[0]], 
+     StyleBox["Req2",
+      FontColor->RGBColor[0, 0, 1]], 
+     StyleBox["+",
+      FontColor->GrayLevel[0]], 
+     StyleBox["R",
+      FontColor->RGBColor[0, 0, 1]]}], 
+    StyleBox[")",
+     FontColor->GrayLevel[0]]}]}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  StyleBox["V4",
+   FontColor->RGBColor[0, 0, 1]], 
+  StyleBox["=",
+   FontColor->GrayLevel[0]], 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     StyleBox["(",
+      FontColor->GrayLevel[0]], 
+     RowBox[{
+      StyleBox["R4",
+       FontColor->RGBColor[0, 0, 1]], 
+      StyleBox["/",
+       FontColor->GrayLevel[0]], 
+      RowBox[{
+       StyleBox["(",
+        FontColor->GrayLevel[0]], 
+       RowBox[{
+        StyleBox["R4",
+         FontColor->RGBColor[0, 0, 1]], 
+        StyleBox["+",
+         FontColor->GrayLevel[0]], 
+        StyleBox["Req3",
+         FontColor->RGBColor[0, 0, 1]], 
+        StyleBox["+",
+         FontColor->GrayLevel[0]], 
+        StyleBox["R",
+         FontColor->RGBColor[0, 0, 1]]}], 
+       StyleBox[")",
+        FontColor->GrayLevel[0]]}]}], 
+     StyleBox[")",
+      FontColor->GrayLevel[0]]}], 
+    StyleBox["*",
+     FontColor->GrayLevel[0]], 
+    StyleBox["V3",
+     FontColor->RGBColor[0, 0, 1]]}], 
+   StyleBox["+",
+    FontColor->GrayLevel[0]], 
+   RowBox[{
+    RowBox[{
+     StyleBox["(",
+      FontColor->GrayLevel[0]], 
+     RowBox[{
+      RowBox[{
+       StyleBox["(",
+        FontColor->GrayLevel[0]], 
+       RowBox[{
+        StyleBox["Req3",
+         FontColor->RGBColor[0, 0, 1]], 
+        StyleBox["+",
+         FontColor->GrayLevel[0]], 
+        StyleBox["R",
+         FontColor->RGBColor[0, 0, 1]]}], 
+       StyleBox[")",
+        FontColor->GrayLevel[0]]}], 
+      StyleBox["/",
+       FontColor->GrayLevel[0]], 
+      RowBox[{
+       StyleBox["(",
+        FontColor->GrayLevel[0]], 
+       RowBox[{
+        StyleBox["Req3",
+         FontColor->RGBColor[0, 0, 1]], 
+        StyleBox["+",
+         FontColor->GrayLevel[0]], 
+        StyleBox["R",
+         FontColor->RGBColor[0, 0, 1]], 
+        StyleBox["+",
+         FontColor->GrayLevel[0]], 
+        StyleBox["R4",
+         FontColor->RGBColor[0, 0, 1]]}], 
+       StyleBox[")",
+        FontColor->GrayLevel[0]]}]}], 
+     StyleBox[")",
+      FontColor->GrayLevel[0]]}], 
+    StyleBox["*",
+     FontColor->GrayLevel[0]], 
+    StyleBox["s4",
+     FontColor->RGBColor[0, 0, 1]]}]}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  StyleBox["Req4",
+   FontColor->RGBColor[0, 0, 1]], 
+  StyleBox["=",
+   FontColor->GrayLevel[0]], 
+  RowBox[{
+   RowBox[{
+    StyleBox["(",
+     FontColor->GrayLevel[0]], 
+    RowBox[{
+     StyleBox["R4",
+      FontColor->RGBColor[0, 0, 1]], 
+     StyleBox["*",
+      FontColor->GrayLevel[0]], 
+     RowBox[{
+      StyleBox["(",
+       FontColor->GrayLevel[0]], 
+      RowBox[{
+       StyleBox["Req3",
+        FontColor->RGBColor[0, 0, 1]], 
+       StyleBox["+",
+        FontColor->GrayLevel[0]], 
+       StyleBox["R",
+        FontColor->RGBColor[0, 0, 1]]}], 
+      StyleBox[")",
+       FontColor->GrayLevel[0]]}]}], 
+    StyleBox[")",
+     FontColor->GrayLevel[0]]}], 
+   StyleBox["/",
+    FontColor->GrayLevel[0]], 
+   RowBox[{
+    StyleBox["(",
+     FontColor->GrayLevel[0]], 
+    RowBox[{
+     StyleBox["R4",
+      FontColor->RGBColor[0, 0, 1]], 
+     StyleBox["+",
+      FontColor->GrayLevel[0]], 
+     StyleBox["Req3",
+      FontColor->RGBColor[0, 0, 1]], 
+     StyleBox["+",
+      FontColor->GrayLevel[0]], 
+     StyleBox["R",
+      FontColor->RGBColor[0, 0, 1]]}], 
+    StyleBox[")",
+     FontColor->GrayLevel[0]]}]}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  StyleBox["V0",
+   FontColor->RGBColor[0, 0, 1]], 
+  StyleBox["=",
+   FontColor->GrayLevel[0]], 
+  RowBox[{
+   RowBox[{
+    StyleBox["-",
+     FontColor->GrayLevel[0]], 
+    RowBox[{
+     StyleBox["(",
+      FontColor->GrayLevel[0]], 
+     RowBox[{
+      StyleBox["Rf",
+       FontColor->RGBColor[0, 0, 1]], 
+      StyleBox["/",
+       FontColor->GrayLevel[0]], 
+      RowBox[{
+       StyleBox["(",
+        FontColor->GrayLevel[0]], 
+       RowBox[{
+        StyleBox["Req4",
+         FontColor->RGBColor[0, 0, 1]], 
+        StyleBox["+",
+         FontColor->GrayLevel[0]], 
+        RowBox[{
+         StyleBox["2",
+          FontColor->RGBColor[0, 0, 1]], 
+         StyleBox["*",
+          FontColor->GrayLevel[0]], 
+         StyleBox["R",
+          FontColor->RGBColor[0, 0, 1]]}]}], 
+       StyleBox[")",
+        FontColor->GrayLevel[0]]}]}], 
+     StyleBox[")",
+      FontColor->GrayLevel[0]]}]}], 
+   StyleBox["*",
+    FontColor->GrayLevel[0]], 
+   StyleBox["V4",
+    FontColor->RGBColor[0, 0, 1]]}]}]}], "Input",
+ CellChangeTimes->{{3.8443983627837186`*^9, 3.8443985691509037`*^9}, {
+  3.8443986127539444`*^9, 3.844398700211038*^9}, {3.844706741582793*^9, 
+  3.844706759099603*^9}, {3.8447068997140164`*^9, 3.844706904979995*^9}, {
+  3.8447094015643787`*^9, 3.8447097607425203`*^9}, {3.8447098005522995`*^9, 
+  3.844709809827873*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"2eb6e94c-e072-4112-96e6-a9fe9ef502ac"],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"(*", "Entradas", "*)"}],
+   FontColor->RGBColor[0., 0.5019607843137255, 0.5019607843137255]], 
+  "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    StyleBox["s1",
+     FontColor->RGBColor[0, 0, 1]], 
+    StyleBox["=",
+     FontColor->GrayLevel[0]], 
+    RowBox[{
+     StyleBox["b1",
+      FontColor->RGBColor[0, 0, 1]], 
+     StyleBox["*",
+      FontColor->GrayLevel[0]], 
+     StyleBox["VREF",
+      FontColor->GrayLevel[0]]}]}], 
+   StyleBox["\[IndentingNewLine]",
+    FontColor->RGBColor[0, 0, 1]], 
+   RowBox[{
+    StyleBox["s2",
+     FontColor->RGBColor[0, 0, 1]], 
+    StyleBox["=",
+     FontColor->GrayLevel[0]], 
+    RowBox[{
+     StyleBox["b2",
+      FontColor->RGBColor[0, 0, 1]], 
+     StyleBox["*",
+      FontColor->GrayLevel[0]], 
+     StyleBox["VREF",
+      FontColor->GrayLevel[0]]}]}], 
+   StyleBox["\[IndentingNewLine]",
+    FontColor->RGBColor[0, 0, 1]], 
+   RowBox[{
+    StyleBox["s3",
+     FontColor->RGBColor[0, 0, 1]], 
+    StyleBox["=",
+     FontColor->GrayLevel[0]], 
+    RowBox[{
+     StyleBox["b3",
+      FontColor->RGBColor[0, 0, 1]], 
+     StyleBox["*",
+      FontColor->GrayLevel[0]], 
+     StyleBox["VREF",
+      FontColor->GrayLevel[0]]}]}], 
+   StyleBox["\[IndentingNewLine]",
+    FontColor->RGBColor[0, 0, 1]], 
+   RowBox[{
+    StyleBox["s4",
+     FontColor->RGBColor[0, 0, 1]], 
+    StyleBox["=",
+     FontColor->GrayLevel[0]], 
+    RowBox[{
+     StyleBox["b4",
+      FontColor->RGBColor[0, 0, 1]], 
+     StyleBox["*",
+      FontColor->GrayLevel[0]], 
+     StyleBox["VREF",
+      FontColor->GrayLevel[0]]}]}]}]}]], "Input",
+ CellChangeTimes->{{3.8443987163591223`*^9, 3.8443987560511446`*^9}, {
+  3.8447069131163416`*^9, 3.8447069529511213`*^9}, {3.8447093569493704`*^9, 
+  3.844709378294084*^9}},
+ CellLabel->"In[10]:=",ExpressionUUID->"7f2eb211-e7f0-4392-8726-58e3d0f5b12e"],
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", 
+  StyleBox[
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"Resist\[EHat]ncias", " ", "a", " ", "alterar"}], ";", " ", 
+      RowBox[{
+       RowBox[{"dever\[AAcute]", " ", "substituir"}], "-", 
+       RowBox[{
+       "se", " ", "um", " ", "dos", " ", "valores", " ", "abaixo", " ", "por",
+         " ", "R"}]}], ";", " ", 
+      RowBox[{
+      "se", " ", "se", " ", "desejar", " ", "obter", " ", "as", " ", 
+       "express\[OTilde]es", " ", "em", " ", "fun\[CCedilla]\[ATilde]o", " ", 
+       "de", " ", "uma", " ", "das", " ", "vari\[AAcute]veis"}]}], ",", " ", 
+     RowBox[{
+      RowBox[{"basta", " ", "igual\[AAcute]"}], "-", 
+      RowBox[{"la", " ", "a", " ", "\"\<.\>\"", " ", 
+       RowBox[{"(", 
+        RowBox[{"ponto", " ", "final"}], ")"}]}], "-", 
+      RowBox[{"por", " ", "exemplo"}]}], ",", " ", 
+     RowBox[{
+     "se", " ", "se", " ", "quiser", " ", "obter", " ", "V0", " ", "em", " ", 
+      "fun\[CCedilla]\[ATilde]o", " ", "de", " ", "um", " ", "R1", " ", 
+      "gen\[EAcute]rico"}], ",", " ", 
+     RowBox[{
+      RowBox[{"faz", "-", 
+       RowBox[{"se", " ", "R1"}]}], "=."}]}], "*)"}],
+   FontColor->RGBColor[
+    0., 0.5019607843137255, 0.5019607843137255]]}]], "Input",
+ CellChangeTimes->{{3.84470696039735*^9, 3.8447069675072117`*^9}, {
+  3.844707077586861*^9, 3.844707176123189*^9}, {3.8447072133522043`*^9, 
+  3.844707231022047*^9}},ExpressionUUID->"bdaeab28-4ecd-4825-8023-\
+1ed562196c5d"],
+
+Cell[BoxData[{
+ RowBox[{
+  StyleBox["R1",
+   FontColor->RGBColor[0, 0, 1]], "=", 
+  RowBox[{"2", "*", 
+   StyleBox["R",
+    FontColor->RGBColor[0, 0, 1]]}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  StyleBox["R2",
+   FontColor->RGBColor[0, 0, 1]], "=", 
+  RowBox[{"2", "*", 
+   StyleBox["R",
+    FontColor->RGBColor[0, 0, 1]]}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  StyleBox["R3",
+   FontColor->RGBColor[0, 0, 1]], "=", 
+  RowBox[{"2", "*", 
+   StyleBox["R",
+    FontColor->RGBColor[0, 0, 1]]}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  StyleBox["R4",
+   FontColor->RGBColor[0, 0, 1]], "=", 
+  RowBox[{"2", "*", 
+   StyleBox["R",
+    FontColor->RGBColor[0, 0, 1]]}]}]}], "Input",
+ CellChangeTimes->CompressedData["
+1:eJxTTMoPSmViYGAQBmIQzXI15+rsJW8cX3gfuw6iz22quwuiV4u3gWm9GYG8
+c4B0k3Y+mFZRZxIC0TVMqmC6a5awHIi2ytYH0zt4VmmCaAOrDWD6F+8yQxC9
+JD/TEkQ/erdFeiGQZhKykAHRVeEVq0C028VlYNrmUegBEC0wOQFMXzsS/ANE
+Kx2OANNnl2X+WQykQ4x0/oLoHZ+62JcAaQWlCWD6SXeiEoh+2HEJTO/UPKoD
+oo8teg6ml/8TMAbR6xZesALR8e6/HEG0DC+3E4h2rDrhBqK3tU/xANG7Wicr
+GS194/iNZSaYBgAuvqJ6
+  "],
+ CellLabel->"In[14]:=",ExpressionUUID->"6fc44e57-2a12-421a-9d79-914f5d211ceb"],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{
+     "Resist\[EHat]ncia", " ", "de", " ", "realimenta\[CCedilla]\[ATilde]o"}],
+      ",", " ", 
+     RowBox[{
+      RowBox[{"cujo", " ", "valor", " ", "ser\[AAcute]", " ", "Rf"}], "=", 
+      RowBox[{
+       RowBox[{"2", "R", " ", "ou", " ", "Rf"}], "=", 
+       RowBox[{"4", "R"}]}]}]}], "*)"}],
+   FontColor->RGBColor[0., 0.5019607843137255, 0.5019607843137255]], 
+  "\[IndentingNewLine]", 
+  RowBox[{
+   StyleBox["Rf",
+    FontColor->RGBColor[0, 0, 1]], "=", 
+   RowBox[{"2", "*", 
+    StyleBox["R",
+     FontColor->RGBColor[0, 0, 1]]}]}]}]], "Input",
+ CellChangeTimes->{{3.8443987841382494`*^9, 3.8443987879432096`*^9}, {
+  3.844398836504484*^9, 3.8443988372696776`*^9}, {3.844399215795145*^9, 
+  3.844399216342286*^9}, {3.844399263350124*^9, 3.8443992639062614`*^9}, {
+  3.8443995347786827`*^9, 3.8443995348487077`*^9}, {3.8444095755486584`*^9, 
+  3.8444095756486893`*^9}, {3.844411266124881*^9, 3.8444112661708946`*^9}, {
+  3.8444154716907363`*^9, 3.8444154717477565`*^9}, {3.844415507560809*^9, 
+  3.844415507612825*^9}, {3.8444155514629107`*^9, 3.844415552030056*^9}, {
+  3.8444155878641014`*^9, 3.844415587982129*^9}, {3.8444157703441615`*^9, 
+  3.8444157704522204`*^9}, {3.8444158213590755`*^9, 3.844415899688885*^9}, {
+  3.8444160062558064`*^9, 3.844416019618168*^9}, {3.8444160775138063`*^9, 
+  3.8444160776798477`*^9}, {3.8447069712321663`*^9, 3.8447069949327474`*^9}, {
+  3.8447071816078157`*^9, 
+  3.844707195052735*^9}},ExpressionUUID->"e5831187-3801-4e5b-97ff-\
+3e73699b6260"],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"(*", 
+    RowBox[{"Express\[ATilde]o", " ", "final"}], "*)"}],
+   FontColor->RGBColor[0., 0.5019607843137255, 0.5019607843137255]], 
+  "\[IndentingNewLine]", 
+  RowBox[{"Print", "[", 
+   StyleBox["V0",
+    FontColor->RGBColor[0, 0, 1]], "]"}]}]], "Input",
+ CellChangeTimes->{{3.8443987899057064`*^9, 3.844398794159781*^9}, {
+  3.8443988447315636`*^9, 3.844398850690072*^9}, {3.844706999315364*^9, 
+  3.844707005628402*^9}},
+ CellLabel->"In[19]:=",ExpressionUUID->"b3d73b3d-8736-4ecc-88b9-1736bd4e0003"],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"(*", 
+    RowBox[{"Express\[ATilde]o", " ", "final", " ", "simplificada"}], "*)"}],
+   FontColor->RGBColor[0., 0.5019607843137255, 0.5019607843137255]], 
+  "\[IndentingNewLine]", 
+  RowBox[{"Simplify", "[", 
+   StyleBox["V0",
+    FontColor->RGBColor[0, 0, 1]], "]"}]}]], "Input",
+ CellChangeTimes->{{3.8443988954313545`*^9, 3.844398915974526*^9}, {
+  3.8447070077535458`*^9, 3.8447070162584095`*^9}},
+ CellLabel->"In[20]:=",ExpressionUUID->"122336bc-ca43-4321-91ad-fa2864eb2f1b"]
+},
+ScreenStyleEnvironment->"Printout",
+WindowSize->{1366, 685},
+WindowMargins->{{-8, Automatic}, {Automatic, -8}},
+FrontEndVersion->"12.0 for Microsoft Windows (64-bit) (April 8, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 420, 10, 20, "Input",ExpressionUUID->"b14c3d54-6903-4262-b676-b47f943e42fd"],
+Cell[981, 32, 13528, 512, 131, "Input",ExpressionUUID->"2eb6e94c-e072-4112-96e6-a9fe9ef502ac"],
+Cell[14512, 546, 1858, 64, 75, "Input",ExpressionUUID->"7f2eb211-e7f0-4392-8726-58e3d0f5b12e"],
+Cell[16373, 612, 1485, 34, 75, "Input",ExpressionUUID->"bdaeab28-4ecd-4825-8023-1ed562196c5d"],
+Cell[17861, 648, 1121, 33, 62, "Input",ExpressionUUID->"6fc44e57-2a12-421a-9d79-914f5d211ceb"],
+Cell[18985, 683, 1574, 34, 34, "Input",ExpressionUUID->"e5831187-3801-4e5b-97ff-3e73699b6260"],
+Cell[20562, 719, 550, 13, 34, "Input",ExpressionUUID->"b3d73b3d-8736-4ecc-88b9-1736bd4e0003"],
+Cell[21115, 734, 527, 12, 34, "Input",ExpressionUUID->"122336bc-ca43-4321-91ad-fa2864eb2f1b"]
+}
+]
+*)
+

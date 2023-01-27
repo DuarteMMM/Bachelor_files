@@ -1,0 +1,13 @@
+Added Pin To Net: NetName=GND Pin=J31-1
+Added Pin To Net: NetName=VCC Pin=J32-1
+Added Pin To Net: NetName=NetC71_2 Pin=J41-1
+Added Pin To Net: NetName=NetC72_2 Pin=J42-1
+Added Pin To Net: NetName=NetC61_1 Pin=J51-1
+Added Pin To Net: NetName=NetC62_1 Pin=J52-1
+Added Pin To Net: NetName=VCC Pin=U1-1
+Added Pin To Net: NetName=NetC6_1 Pin=U1-4
+Added Pin To Net: NetName=VCC Pin=U11-1
+Added Pin To Net: NetName=GND Pin=U11-2
+Added Pin To Net: NetName=NetR51_2 Pin=U11-3
+Added Pin To Net: NetName=NetC61_1 Pin=U11-4
+Added Room: Name=Sensor

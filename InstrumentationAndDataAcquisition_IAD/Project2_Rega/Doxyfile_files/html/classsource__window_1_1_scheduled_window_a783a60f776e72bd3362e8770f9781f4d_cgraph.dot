@@ -1,0 +1,12 @@
+digraph "source_window.ScheduledWindow.closeEvent"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="source_window.ScheduledWindow.close\lEvent",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Handler for the Close button."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="source_window.Master.exit\l_clicked",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsource__window_1_1_master.html#ae44a0128e9e58287d6a475bf8d7bd0ba",tooltip="Called to exit the Application."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="source_arduino.stop\l_serial",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacesource__arduino.html#a0a74da49aed161251b91a5555d360faf",tooltip="Stop the serial communication."];
+}

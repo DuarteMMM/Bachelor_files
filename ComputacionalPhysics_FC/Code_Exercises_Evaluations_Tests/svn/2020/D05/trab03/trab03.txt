@@ -1,0 +1,10 @@
+Problema 1:
+
+Calculámos o integral entre 0 e 7000 porque o integral entre 7000 e +infinito é muito pequeno. A nossa ideia, se tivéssemos tempo, era fazer a mudança de variáveis v = x/(1-x) para poder calcular um integral entre 0 e 1, mas esta expressão causou-nos alguns problemas que não tivemos oportunidade de resolver.
+
+
+Problema 2:
+
+Verifica-se que a energia total do sistema diminui em dados momentos e depois estabiliza durante longos intervalos de tempo. Também se percebeu que estas quedas na energia coincidiam com os momentos em que havia colisões de algumas partículas com as paredes. Isto deve-se ao método de Loop-Verlet e da forma como este estima a velocidade num dado instante. Este problema pode ser corrigido utilizando as expressões:
+ x(t + dt) = 2 * x(t) + x(t-dt) + dt² *a(t), para colisões com a parede x=0 (correspondente para y=0) e 
+ x(t + dt) = 2 * x(t) + x(t-dt) - 2*L + dt² *a(t), para colisões com a parede x=L (correspondente para y=L)

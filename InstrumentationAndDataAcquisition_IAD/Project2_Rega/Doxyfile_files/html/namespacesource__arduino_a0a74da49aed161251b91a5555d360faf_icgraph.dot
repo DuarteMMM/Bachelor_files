@@ -1,0 +1,16 @@
+digraph "source_arduino.stop_serial"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="source_arduino.stop\l_serial",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Stop the serial communication."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="source_window.Master.exit\l_clicked",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsource__window_1_1_master.html#ae44a0128e9e58287d6a475bf8d7bd0ba",tooltip="Called to exit the Application."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="source_window.StartWindow.close\lEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsource__window_1_1_start_window.html#a4eb7b7d2d126d3dad5e90a7d7c390b3a",tooltip="Handler for the Close button."];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="source_window.HumidityWindow.close\lEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsource__window_1_1_humidity_window.html#a6d757766ce698316e573719f8c48c17b",tooltip="Handler for the Close button."];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="source_window.ScheduledWindow.close\lEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsource__window_1_1_scheduled_window.html#a783a60f776e72bd3362e8770f9781f4d",tooltip="Handler for the Close button."];
+}

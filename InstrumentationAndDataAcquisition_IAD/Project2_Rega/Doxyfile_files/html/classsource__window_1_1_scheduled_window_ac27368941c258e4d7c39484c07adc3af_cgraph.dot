@@ -1,0 +1,10 @@
+digraph "source_window.ScheduledWindow.time_undo_daily"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="source_window.ScheduledWindow.time\l_undo_daily",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Handler for the Daily mode - Undo button."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="source_window.ScheduledWindow.label\l_update_daily",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsource__window_1_1_scheduled_window.html#a3fa5580a4783886658c5b4c07fb93894",tooltip="Updated the Daily mode time selection label."];
+}

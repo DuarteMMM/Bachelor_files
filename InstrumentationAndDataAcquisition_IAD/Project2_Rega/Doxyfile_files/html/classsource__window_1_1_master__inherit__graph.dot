@@ -1,0 +1,14 @@
+digraph "source_window.Master"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="source_window.Master",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Main class Initializes the Application, opens, controls and closes the windows."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="source_window.HumidityWindow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsource__window_1_1_humidity_window.html",tooltip="Humidity control mode window."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="source_window.ScheduledWindow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsource__window_1_1_scheduled_window.html",tooltip="Pre-scheduled mode window."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="source_window.StartWindow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsource__window_1_1_start_window.html",tooltip="Controls the Start window, where an operation mode is selected."];
+}

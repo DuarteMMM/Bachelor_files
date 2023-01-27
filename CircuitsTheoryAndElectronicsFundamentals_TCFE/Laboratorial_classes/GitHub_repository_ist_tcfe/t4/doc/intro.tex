@@ -1,0 +1,12 @@
+\section{Introduction} \label{sec:introduction}
+
+% state the learning objective
+The main objective of this laboratory assignment is to simulate an audio amplifier circuit with Ngspice and to compare the results with a theoretical model used to study this circuit. The architectures of the Gain and Output Stages have been chosen as shown in Figure \ref{fig:CircuitDraw}, in which designations have been assigned to each node and the circuit's components. The input corresponds to an AC signal of amplitude 10 mV. On the other hand, the output, measured in the \textit{out} node shown below,  must be a sine wave with no visible distortion. It is connected to an 8 $\Omega$ audio speaker.
+\par
+The Gain Stage contains the capacitors $C_i$ and $C_b$ and the resistances $R_1$, $R_2$, $R_c$ and $R_e$, as well as a bipolar NPN transistor. The resistances $R_{out}$ and $R_L$, the capacitor $C_o$ and the bipolar PNP transistor belong to the Output Stage. In order to simulate this circuit in Ngspice, the Philips BC547A BJT model was used for the NPN transistor and the Philips BC557A BJT model was used for the PNP transistor. By studying this circuit, the gain and impedances for both stages have been computed and the frequency response has been plotted in Sections \ref{sec:analysis} and \ref{sec:simulation}. The values of the circuit's components were selected in order to obtain the desired results and, at the same time, keep the monetary cost as low as possible, in order to keep the merit M (computed in Section \ref{sec:simulation}) as high as possible.
+
+\begin{figure}[H] \centering
+  \includegraphics[width=0.95\linewidth]{CircuitDraw.pdf}
+  \caption{Circuit to be analysed in this laboratory assignment.}
+  \label{fig:CircuitDraw}
+\end{figure}

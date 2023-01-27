@@ -1,0 +1,10 @@
+digraph "source_arduino.get_mode"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="source_arduino.get_mode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Gets the current operation mode."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="source_arduino.get\l_prescheduled",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespacesource__arduino.html#a469377050cf6494702e9742e8e2353e8",tooltip="Gets the parameters in use for both of the Pre-scheduled modes."];
+}

@@ -1,0 +1,19 @@
+Added Component: Designator=U1(STB_pad_SMT)
+Added Component: Designator=U11(STB_pad_SMT)
+Added Component: Designator=U12(STB_pad_SMT)
+Added Pin To Net: NetName=VCC Pin=U1-1
+Added Pin To Net: NetName=GND Pin=U1-2
+Added Pin To Net: NetName=NetR5_2 Pin=U1-3
+Added Pin To Net: NetName=NetC6_1 Pin=U1-4
+Added Pin To Net: NetName=VCC Pin=U11-1
+Added Pin To Net: NetName=GND Pin=U11-2
+Added Pin To Net: NetName=NetR51_2 Pin=U11-3
+Added Pin To Net: NetName=NetC61_1 Pin=U11-4
+Added Pin To Net: NetName=VCC Pin=U12-1
+Added Pin To Net: NetName=GND Pin=U12-2
+Added Pin To Net: NetName=NetR52_2 Pin=U12-3
+Added Pin To Net: NetName=NetC62_1 Pin=U12-4
+Added Member To Class: ClassName=Sensor Member=Component U1 STB-LA/Z
+Added Member To Class: ClassName=Sensor Member=Component U11 STB-LA/Z
+Added Member To Class: ClassName=Sensor Member=Component U12 STB-LA/Z
+Added Room: Name=Sensor

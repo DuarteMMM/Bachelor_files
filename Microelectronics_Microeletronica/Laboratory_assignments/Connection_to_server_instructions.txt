@@ -1,0 +1,47 @@
+Disk space:
+
+Students will use their afs disk space.
+
+In order to enable the use of afs, students need to go to https://selfservice.dsi.tecnico.ulisboa.pt/ and request its activation.
+
+ 
+
+Windows users:
+
+Students using Windows must download (for free) Xming and putty software.
+
+Xming must be launched and stay running in background.
+
+ 
+
+putty must be configured allowing X11 forwarding, hostname fatima.vps.tecnico.ulisboa.pt and username from fenix.
+
+Alternative server is fatima2.vps.tecnico.ulisboa
+
+ 
+
+Mac users:
+
+MAC users can use Xquartz and run
+
+ 
+
+ssh -Y istxxxxx@fatima.vps.tecnico.ulisboa.pt
+
+OR, even better, add the line:
+
+XAuthLocation /opt/X11/bin/xauth
+
+to file ~/.ssh/config
+
+and use:
+
+ssh -X istxxxxx@fatima.vps.tecnico.ulisboa.pt
+
+
+
+VPN connection:
+
+In order to improve the quality of your connection to the campus network, it is recommended to connect the vpn following the instructions in:
+
+https://si.tecnico.ulisboa.pt/servicos/redes-e-conetividade/vpn/

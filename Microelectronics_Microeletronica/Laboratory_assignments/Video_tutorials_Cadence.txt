@@ -1,0 +1,11 @@
+Simulation of nMOS I_D(V_GS)
+https://educast.fccn.pt/vod/clips/245dnx1vq7/link_box_h?locale=en
+
+NOR2 schematic and layout
+https://educast.fccn.pt/vod/clips/kt0ipth2f/streaming.html?locale=en
+
+Corners
+https://educast.fccn.pt/vod/clips/s7ga9eygs/streaming.html?locale=en
+
+Corners 2
+https://fenix.tecnico.ulisboa.pt/downloadFile/563568428792743/corner_and_parametric_simulations_27m.mp4
